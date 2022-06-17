@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    max-width: 1280;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.box1{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar{
+    width: 100%;
+    max-width: 125px;
+}
+
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
