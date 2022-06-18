@@ -94,6 +94,7 @@ section.box1{
 
 .link1 .link1-a i{
     position: absolute;
+    color: #3d1670;
     left: 20px;
     line-height: 1.1;
     font-size: 23px;
@@ -110,7 +111,7 @@ section.box1{
 }
 
 .link2 a{
-    font-size: 30px;
+    font-size: 28px;
     color: #3d1670;
     margin: 0 5px;
 }
