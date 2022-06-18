@@ -9,5 +9,5 @@ Google style Fonts: https://fonts.google.com/specimen/Montserrat .
 Font Awesome icons: https://fontawesome.com/download.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/29787356/174423670-2511e57a-8ec5-41da-bebd-725f1128020d.png" width="600px" />
+<img src="https://user-images.githubusercontent.com/29787356/174424394-0a6c0aa2-0bae-4a1b-b58a-a40dccf63fea.gif" width="700px" />
 </div>
