@@ -3,8 +3,6 @@
 This project was generated with HTML5 and CSS3.
 Project developed to promote links and social media, based on the "linktree".
 
-ONLINE VIEW NOW: https://linkbiofmachadobr.netlify.app/
-
 ## Development fonts
 
 Google style Fonts: https://fonts.google.com/specimen/Montserrat .
