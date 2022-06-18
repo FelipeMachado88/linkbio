@@ -10,7 +10,7 @@ ONLINE VIEW NOW: https://linkbiofmachadobr.netlify.app/
 Google style Fonts: https://fonts.google.com/specimen/Montserrat .
 Font Awesome icons: https://fontawesome.com/download.
 
-## ONLINE VIEW NOW:
+## View online now:
 https://linkbiofmachadobr.netlify.app/
 
 <div align="center">
