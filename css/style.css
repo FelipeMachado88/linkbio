@@ -44,7 +44,7 @@ section.box1 {
     font-size: 67%;
 }
 
-/*-----------------COMEÇA LINK1-------------------*/
+/*-----------------START LINK1-------------------*/
 .link1 {
     width: 100%;
     text-align: center;
@@ -53,63 +53,50 @@ section.box1 {
 .link1 a {
     color: white;
     text-decoration: none;
-    /*Remover sublinhado do link*/
 }
 
 .link1 .link1-a {
-    /*efeito de zoom - config ANTES DA EXECUÇÃO*/
     position: relative;
-    /*efeito de zoom - position RELATIVA para permitir o efeito*/
     background-color: #08001b;
     border-radius: 15px;
     border: 2px solid #08001b;
     padding: 10px;
     margin: 18px 0;
     box-shadow: rgba(0, 0, 0, 0.1);
-    /*efeito de zoom - SOMBRA com opacidade fraquinha*/
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    /*efeito de zoom - efeito de TRANSIÇÃO*/
-
+    /*transiction effects*/
 }
 
 .link1 .link1-a:hover {
-    /*efeito de zoom - EXECUÇÃO ao passar o mouse.*/
+    /*mouse effects*/
     background-color: #3d1670;
     transform: scale(1.15, 1.15);
-    /*efeito de zoom - Aumentando a ESCALA 15%*/
+    /*up scale 15%*/
 }
 
 .link1 .link1-a :hover ::after {
-    /*efeito de zoom - DURANTE EXECUÇÃO (mouse em cima).*/
+    /*mouse effects*/
     opacity: 1;
-    /*efeito de zoom - Aumentada a opacidade efeito de salto na tela aparecendo a cor cinza.*/
+    /*zoom effect*/
 }
 
 .link1 .link1-a ::after {
-    /*efeito de zoom - APÓS EXECUÇÃO*/
+    /*zoom effect*/
     content: "";
-    /*efeito de zoom - limpando conteúdo de TEXTO*/
     position: absolute;
-    /*efeito de zoom - PÓS*/
     background-color: #08001b;
     opacity: 0;
-    /*efeito de zoom - a opacidade 0, retira a cor cinza do efeito de salto na tela.*/
     border-radius: 15px;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3);
-    /*efeito de zoom - aumenta efeito sombra*/
+    /*shadow effect*/
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    /*efeito de zoom*/
     z-index: -1;
-    /*efeito de zoom - posicionamento das camadas no CSS*/
 }
-
 
 .link1 .link1-a :hover ::after {
-    /*efeito de zoom - APÒS*/
+    /*zoom effect*/
     opacity: 1;
 }
-
-/*efeito de zoom*/
 
 .link1 .link1-a i {
     position: absolute;
@@ -124,7 +111,7 @@ section.box1 {
 
 }
 
-/*-----------------COMEÇA LINK2-------------------*/
+/*-----------------START LINK2-------------------*/
 .link2 {
     margin-top: 10px;
 }
