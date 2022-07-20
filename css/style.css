@@ -71,24 +71,19 @@ section.box1 {
     /*mouse effects*/
     background-color: #3d1670;
     transform: scale(1.15, 1.15);
-    /*up scale 15%*/
 }
 
 .link1 .link1-a :hover ::after {
-    /*mouse effects*/
     opacity: 1;
-    /*zoom effect*/
 }
 
 .link1 .link1-a ::after {
-    /*zoom effect*/
     content: "";
     position: absolute;
     background-color: #08001b;
     opacity: 0;
     border-radius: 15px;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3);
-    /*shadow effect*/
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     z-index: -1;
 }
